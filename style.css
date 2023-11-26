@@ -1,1 +1,115 @@
- 
+@media screen and (min-width: 1024px) {
+  /* header section */
+  .header-block {
+    width: 100%;
+    grid-area: header;
+    min-height: 10rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.6% 1.5%;
+    position: fixed;
+    background: #f9f7f3;
+    @media screen and (min-width: 1200px) {
+      padding: 1.6% 4.5%;
+    }
+  }
+
+  .header__logo-block {
+    display: flex;
+    align-items: center;
+    flex-basis: 20%;
+  }
+
+  .header__logo {
+    height: 2.7rem;
+    @media screen and (min-width: 1024px) and (max-width: 1090px) {
+      height: 2rem;
+    }
+  }
+
+  .header__primary-nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @media screen and (min-width: 1024px) {
+      width: clamp(110%, 5vw, 120%);
+    }
+  }
+
+  .primary-nav__list { 
+    gap: 2rem;
+    list-style-type: none;
+    display: flex;
+    @media screen and (min-width: 1024px) {
+      gap: 1rem;
+    }
+  }
+
+  .primary-nav__list-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.3rem 0.9rem;
+  }
+
+  .re-use,
+  .about {  
+    @media screen and (min-width: 1210px) {
+      margin-left: clamp(1rem, 1.5vw, 8rem);
+    }
+  }
+
+  .arrow-down {
+    width: 20%;
+    margin-left: 0.7rem;
+  }
+
+  .primary-nav__link {
+    width: 100%;
+    font-size: 1.6rem;
+    font-weight: 400;
+  }
+
+  .header__button-block {
+    flex-basis: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .header__button {
+    padding: 1.1rem 2rem;
+    border: 0.18749em solid #000;
+    border-radius: 15rem;
+    font-size: 1.6rem;
+    background: #f9f7f3;
+  }
+
+  .header__button2 {
+    border: none;
+    padding: 1.4rem 2.6rem;
+    background: #000;
+    font-size: 1.4rem;
+    color: #f1f1f1;
+    margin-left: 2rem;
+    font-weight: bold;
+  }
+
+  .header__button1:hover {
+    background: #000;
+    color: #fff;
+    transition: all 0.2s linear;
+  }
+
+  .header__button2:hover {
+    background: #85343a;
+    transition: all 0.2s linear;
+  }
+
+  /* main section */
+  .main-block {
+    grid-area: main;
+    /* background: green; */
+  }
+}

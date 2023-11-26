@@ -5,7 +5,22 @@
 }
 
 html {
-  font-size: 62.5%; 
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 1.6em;
+  background: #f9f7f3;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 10rem 1fr;
+  grid-template-areas:
+    "header header header header"
+    "main main main main"
+    "footer footer footer footer";
+  line-height: 1.5;
+  padding-bottom: 100rem;
 }
 
 a {
