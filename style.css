@@ -9,6 +9,7 @@
     padding: 1.6% 1.5%;
     position: fixed;
     background: #f9f7f3;
+    z-index: 10;
     @media screen and (min-width: 1200px) {
       padding: 1.6% 4.5%;
     }
@@ -37,7 +38,7 @@
     }
   }
 
-  .primary-nav__list { 
+  .primary-nav__list {
     gap: 2rem;
     list-style-type: none;
     display: flex;
@@ -54,7 +55,7 @@
   }
 
   .re-use,
-  .about {  
+  .about {
     @media screen and (min-width: 1210px) {
       margin-left: clamp(1rem, 1.5vw, 8rem);
     }
@@ -110,6 +111,92 @@
   /* main section */
   .main-block {
     grid-area: main;
-    /* background: green; */
+  }
+
+  .main__hero-block {
+    width: 100%;
+    min-height: 85vh;
+    min-height: 85dvh;
+    min-height: 85svh;
+    padding: 0 5%;
+    margin-top: 1rem;
+  }
+
+  .hero__text-block {
+    min-height: 35rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 2rem;
+  }
+
+  .hero__text,
+  .hero__text-carousle {
+    font-size: 8.8rem;
+    line-height: 1;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: -0.2rem;
+  }
+
+  .hero__text-carousle-block {
+    width: 100%;
+  }
+
+  .hero__text-carousle {
+    text-decoration: underline;
+    text-decoration-thickness: 0.4rem;
+    text-underline-offset: 0.7rem;
+  }
+
+  .icon-mug-block {
+    display: inline-block;
+    width: 12rem;
+    min-height: 4rem;
+    vertical-align: middle;
+  }
+
+  .icon-mug {
+    width: 100%;
+  }
+
+  .hero__button-block {
+    min-height: 20rem;
+    width: 100%;
+  }
+
+  .hero__button {
+    min-height: 15rem;
+    width: 50%;
+    display: flex;
+    align-items: center;
+  }
+
+  .hero__btn {
+    padding: 2.5rem 4rem;
+    border: 0.13em solid #000;
+    border-radius: 15rem;
+    font-size: 2.2rem;
+    background: #f9f7f3;
+    transition: all 0.4s;
+  }
+
+  .hero__button1 {
+    border: none;
+    background: #85343a;
+    color: #fff;
+    margin-right: 1rem;
+  }
+
+  .hero__button1:hover {
+    background: #000;
+    transition: all 0.2s linear;
+  }
+
+  .hero__button2:hover {
+    background: #000;
+    color: #fff;
+    transition: all 0.2s linear;
   }
 }
