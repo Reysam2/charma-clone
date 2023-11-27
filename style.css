@@ -113,13 +113,15 @@
     grid-area: main;
   }
 
+  /* main__hero-block  */
   .main__hero-block {
     width: 100%;
     min-height: 85vh;
     min-height: 85dvh;
     min-height: 85svh;
     padding: 0 5%;
-    margin-top: 1rem;
+    margin: 1rem 0 -1rem 0;
+    position: relative;
   }
 
   .hero__text-block {
@@ -127,7 +129,7 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center; 
+    justify-content: center;
   }
 
   .hero__text,
@@ -161,12 +163,12 @@
   }
 
   .hero__button-block {
-    min-height: 20rem;
+    min-height: 12rem;
     width: 100%;
   }
 
   .hero__button {
-    min-height: 15rem;
+    min-height: 10rem;
     width: 50%;
     display: flex;
     align-items: center;
@@ -197,5 +199,107 @@
     background: #000;
     color: #fff;
     transition: all 0.2s linear;
+  }
+
+  .hero__design-block {
+    width: 20%;
+    position: absolute;
+    top: 75.5%;
+    left: 60.5%;
+    z-index: 9;
+  }
+
+  .hero__design {
+    width: 100%;
+  }
+
+  /* hero__illustration-block */
+  .hero__illustration-block {
+    min-height: 50rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+
+  .hero__illustration {
+    min-height: 80rem;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+
+  .hero__illustration1 {
+    min-height: 50rem;
+    width: 70%;
+    position: absolute;
+    object-fit: cover;
+  }
+
+  .illustration1,
+  .illustration2,
+  .illustration3,
+  .illustration4,
+  .illustration5 {
+    width: 100%;
+  }
+
+  .hero__illustration2 {
+    width: 20%;
+    position: absolute;
+    top: 14%;
+    bottom: 0%;
+    right: 7%;
+  }
+
+  .hero__illustration3 {
+    width: 34%;
+    position: absolute;
+    top: 56%;
+    bottom: 0%;
+    left: auto;
+    right: 7%;
+  }
+
+  .hero__illustration4 {
+    width: 25%;
+    position: absolute;
+    top: 60%;
+    bottom: 0%;
+    left: 7%;
+  }
+
+  .hero__illustration5 {
+    width: 18%;
+    position: absolute;
+    top: 28.5%;
+    bottom: 0%;
+    left: 5.3%;
+  }
+
+  .hero__illustration-text-block {
+    width: 100%;
+    height: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero__illustration-text {
+    font-size: 2.2rem;
+    font-weight: 500;
+  }
+
+  .illustration-text__link-block {
+    display: inline-flex;
+  }
+
+  .illustration-text__link {
+    color: #105edd;
+    text-decoration: underline;
+    text-underline-offset: 0.2rem;
+    -webkit-text-stroke-width: 0.07rem;
   }
 }
