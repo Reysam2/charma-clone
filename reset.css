@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 1.6em;
   background: #f9f7f3;
   display: grid;
