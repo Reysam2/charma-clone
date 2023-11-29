@@ -504,86 +504,182 @@
 
   /* benefits */
   .main__benefits-block {
-    min-height:40rem;
-    display:flex;
+    min-height: 40rem;
+    display: flex;
     flex-direction: column;
-    width:100%;   
-    padding:6%; 
-    margin-top:5rem;
+    width: 100%;
+    padding: 6%;
+    margin-top: 5rem;
   }
 
   .benefits__title-block {
-    width:100%;
-    min-height:7rem; 
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    margin-bottom:6rem;
+    width: 100%;
+    min-height: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 6rem;
   }
 
   .benefits__title {
-    font-size:5.5rem;
-    font-weight:500;
-    line-height:1.3;
+    font-size: 5.5rem;
+    font-weight: 500;
+    line-height: 1.3;
   }
 
   .main__benefits-preview-block {
-    width:100%;
-    display:flex; 
-    gap:7rem;
+    width: 100%;
+    display: flex;
+    gap: 7rem;
   }
 
   .benefits__preview-block {
-    flex-basis:32%;
-    display:flex;
-    flex-direction: column;
-    justify-content: space-between; 
-  }
-
-  .benefits__preview-image-block {
-    min-height:30rem;
-    width:100%;  
-    display:grid;
-    place-items: center;
-  } 
-
-  .benefits__preview-image-container {
-    height:80%;
-    width: 25rem; 
-  }
-
-  .benefits__preview-image {
-    width:100%;     
-  }
-
-  .benefits__preview-info-block {
-    min-height:56%;
-    width:100%; 
-    display:flex;
+    flex-basis: 32%;
+    display: flex;
     flex-direction: column;
     justify-content: space-between;
   }
 
-  .preview-info__title-block {  
-    min-height:8rem; 
-    margin-bottom:3rem;
+  .benefits__preview-image-block {
+    min-height: 30rem;
+    width: 100%;
+    display: grid;
+    place-items: center;
+  }
+
+  .benefits__preview-image-container {
+    height: 80%;
+    width: 25rem;
+  }
+
+  .benefits__preview-image {
+    width: 100%;
+  }
+
+  .benefits__preview-info-block {
+    min-height: 56%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .preview-info__title-block {
+    min-height: 8rem;
+    margin-bottom: 3rem;
   }
 
   .preview-info__title {
-    font-size:3rem;
+    font-size: 3rem;
   }
 
-  .preview-info__text-block { 
-    width:100%; 
-    display:flex;
-    flex:1;
+  .preview-info__text-block {
+    width: 100%;
+    display: flex;
+    flex: 1;
   }
 
   .preview-info__text {
-    font-size:1.8rem;  
+    font-size: 1.8rem;
   }
 
   .benefits__use-cases-text-block {
-    margin-top:8rem;
+    margin-top: 8rem;
+  }
+
+  /*  quote  */
+  .main__quote-block {
+    min-height: 50rem;
+    width: 100%;
+    padding: 6%;
+  }
+
+  .main__quote-title-block {
+    width: 100%;
+    min-height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 12% 6rem;
+  }
+
+  .main__quote-title {
+    font-size: 5.5rem;
+    line-height: 1.3;
+    text-align: center;
+  }
+
+  .quote__award-winner-block {
+    min-height: 56rem;
+    width: 100%;
+    display: flex;
+    gap: 10rem;
+  }
+
+  .award-winner__image-block {
+    flex-basis: 50%;
+    background: #ffa0ea;
+    display: grid;
+    place-items: center;
+    border-radius: 13%;
+    position: relative;
+  }
+
+  .award-winner__image-container {
+    height: 78%;
+    width: 39rem;
+  }
+
+  .award-winner__image,
+  .award-winner__image2 {
+    width: 100%;
+  }
+
+  .award-winner__image-container2 {
+    width: 22rem;
+    position: absolute;
+    top: 2%;
+    left: 1%;
+  }
+
+  .quote__award-winner-info-block {
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3rem;
+  }
+
+  .award-winner__title-block {
+    min-height: 20rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  .award-winner-info__title {
+    font-size: 6rem;
+    line-height: 1.1;
+  }
+
+  .award-winner-info__text-block {
+    min-height: 10rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .award-winner-info__text {
+    font-size: 2.2rem;
+  }
+
+  .award-winner__link-text-block {
+    min-height: 10rem;
+    justify-content: start;
+  }
+
+  .award-winner__link-text {
+    font-size: 2.5rem;
   }
 }
