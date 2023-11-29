@@ -155,7 +155,7 @@
   }
 
   .hero__text,
-  .hero__text-carousle {
+  .hero__text-carousel {
     font-size: 8.4rem;
     line-height: 1;
     font-weight: 500;
@@ -163,11 +163,11 @@
     letter-spacing: -0.2rem;
   }
 
-  .hero__text-carousle-block {
+  .hero__text-carousel-block {
     width: 100%;
   }
 
-  .hero__text-carousle {
+  .hero__text-carousel {
     text-decoration: underline;
     text-decoration-thickness: 0.4rem;
     text-underline-offset: 0.7rem;
