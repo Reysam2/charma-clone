@@ -20,7 +20,6 @@
   }
 }
 
-
 @media screen and (min-width: 1024px) {
   /* header section */
   .header-block {
@@ -333,7 +332,6 @@
     display: flex;
     flex-direction: column;
     margin-top: 7rem;
-    overflow: hidden;
   }
 
   .product-overview__title-block {
@@ -360,9 +358,6 @@
   .product-overview__content {
     min-height: 45rem;
     width: 100%;
-    /* display: grid;
-    grid-template-columns: repeat(3, 35rem);
-    justify-content: space-around; */
     display: flex;
     justify-content: space-around;
     margin-bottom: 6rem;
@@ -429,5 +424,81 @@
   .product-overview__text:hover .product-overview__text-arrow-right {
     transform: translateX(1rem);
     transition: 0.3s;
+  }
+
+  /* scroll tab */
+  .main__scroll-tab-block {
+    min-height: 100vh;
+    width: 100%;
+    margin-top: 10rem;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-areas: "left left left right right";
+  }
+
+  .main__scroll-tab {
+    grid-area: left;
+  }
+
+  /* carousel */
+  .scroll-tab__info-block {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, 100%);
+    grid-template-areas: "snap1 snap2 snap3 snap4 snap5";
+    scroll-snap-type: x mandatory;
+    overflow: auto;
+  }
+
+  .scroll-tab__info {
+    min-width: 100%;
+    scroll-snap-align: start;
+    padding: 15vh 6rem 6rem;
+  }
+
+  .scroll-tab__snap1 {
+    background: #e7d8c8;
+    grid-area: snap1;
+  }
+
+  .scroll-tab__snap2 {
+    background: #ffa0ea;
+    grid-area: snap2;
+  }
+
+  .scroll-tab__snap3 {
+    background: #ffc65b;
+    grid-area: snap3;
+  }
+
+  .scroll-tab__snap4 {
+    background: #f25d5d;
+    grid-area: snap4;
+  }
+
+  .scroll-tab__snap5 {
+    background: #d0dcdc;
+    grid-area: snap5;
+  }
+
+  .scroll-tap__info-text {
+    font-size: 6.5rem;
+    font-weight: 500;
+    line-height: 1.3;
+  }
+
+  .main__scroll-tab-image-block {
+    display: grid;
+    place-items: center;
+    grid-area: right;
+  }
+
+  .main__scroll-tab-image {
+    width: 40rem;
+  }
+
+  .scroll-tab-image {
+    width: 100%;
   }
 }
