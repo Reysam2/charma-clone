@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 1.6em;
   background: #f9f7f3;
   display: grid;
@@ -21,6 +21,10 @@ body {
     "footer footer footer footer";
   line-height: 1.5;
   padding-bottom: 100rem;
+}
+
+::selection {
+  background: #bbb809;
 }
 
 a {
