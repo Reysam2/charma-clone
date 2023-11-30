@@ -774,4 +774,45 @@
   .main__orgs-logo-container-block24 {
     background: #d0dcdc;
   }
+
+  .main__strip-block {
+    min-height: 50rem;
+    width: 100%;
+    margin-top: 15rem;
+  }
+
+  .main__strip-text-block {
+    width: 100%;
+    min-height: 10rem;
+    padding: 0 6%;
+  }
+
+  .main__strip-text {
+    font-size: 8.8rem;
+    font-weight: 500;
+    line-height: 1.3;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: -0.2rem;
+  }
+
+  .main__strip-button-block {
+    min-height: 20rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+  }
+
+  .strip-text__flower-icon-block {
+    display: inline-block;
+    width: 8rem;
+    min-height: 10rem;
+    vertical-align: bottom;
+  }
+
+  .strip-text__flower-icon {
+    width: 100%;
+  }
 }
