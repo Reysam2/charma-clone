@@ -19,8 +19,7 @@ body {
     "header header header header"
     "main main main main"
     "footer footer footer footer";
-  line-height: 1.5;
-  padding-bottom: 100rem;
+  line-height: 1.5; 
 }
 
 ::selection {
