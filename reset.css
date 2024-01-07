@@ -16,9 +16,10 @@ body {
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 10rem 1fr;
   grid-template-areas:
-    "header header header header"
-    "main main main main"
-    "footer footer footer footer";
+  "header header header header"
+  "error error error error"
+  "main main main main"
+  "footer footer footer footer";
   line-height: 1.5; 
 }
 
